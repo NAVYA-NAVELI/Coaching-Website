@@ -1,0 +1,176 @@
+.outer
+{
+    height: 100%;
+    width: 1300px;
+    background-color: black;
+}
+.header
+{
+    height: 70px;
+    width: 1300px;
+    background-color: black;
+}
+.header img
+{
+    float: left;
+}
+.header p
+{
+    color:darkgreen;
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    margin-top: 2px;
+}
+.header ul
+{
+    list-style-type: none;
+    float: right;
+    color: white;
+    text-align: right;
+    margin-right: 10px;
+}
+.banner
+{
+    height: 400px;
+    width: 1350px;
+    background-image: url("main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu
+{
+    height: 50px;
+    width: 1300px;
+    background-color: black;
+    border-bottom: 2px solid white;
+}
+.submenu
+{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    float: left;
+    padding-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: large;
+    font-weight: bold;
+}
+.submenu a
+{
+    text-decoration: none;
+    color: white;
+}
+.submenu:hover
+{
+    background-color:orangered;
+    color: black;
+}
+.submenu a:hover
+{
+    color: black;
+}
+.work
+{
+    height: 730px;
+    width: 1300px;
+    background-color: olive;
+}
+.work_head
+{
+    height: 55px;
+    width: 1300px;
+    background-color:darkgreen;
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.subwork
+{
+    height: 660px;
+    width: 1300px;
+    background-color: white;
+    margin-top: 0px;
+}
+.subwork td
+{
+    text-align:justify;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.reset
+{
+    height: 30px;
+    width: 100px;
+    border: 2px solid red;
+    color: red;
+}
+.accept
+{
+    height: 30px;
+    width: 100px;
+    border: 2px solid green;
+    color: green;
+}
+.submit
+{
+    height: 50px;
+    width: 150px;
+    background-color: crimson;
+    color: black;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.footer
+{
+    height: 300px;
+    width: 1300px;
+    background-color: black;
+    border-top: 2px solid white;
+}
+.footer p
+{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 50px;
+}
+ol
+{
+    float: left;
+}
+ol li
+{
+    color: whitesmoke;
+    font-size: large;
+    text-align: left;
+    list-style-type: none;
+}
+ul
+{
+    float: right;
+}
+ul li
+{
+    color: whitesmoke;
+    font-size: x-large;
+    margin-left: 10px;
+    list-style-type: none;
+    display: inline;
+    padding-right: 10px;
+}
+ul li a
+{  
+    text-decoration: none;  
+}
+ul li a img
+{
+    border: 0px;
+    border-radius: 100px;
+}
